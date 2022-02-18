@@ -652,7 +652,7 @@ ul {
   text-decoration: none;
 }
 
-/* -------------------- адрес */
+/* ----------------------- адрес */
 
 .address {
   margin-top: 20px;
@@ -688,6 +688,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  transition: color 250ms var(--timing-function);
 }
 .address-list-link:hover,
 .address-list-link:focus {
